@@ -1,12 +1,9 @@
 <?php 
 // Import Parent Theme
-add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
-function enqueue_parent_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+add_action( 'wp_enqueue_scripts', 'tt_child_enqueue_parent_styles' );
+function tt_child_enqueue_parent_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
 }
-
-define( 'WP_HOME', 'https://www.zachschneider.com' );
-define( 'WP_SITEURL', 'https://www.zachschneider.com' );
 
 // CPT TAXONOMY
 include( 'configure/cpt-taxonomy.php' );
@@ -30,4 +27,3 @@ include( 'configure/acf.php' );
 if( is_admin()) {
 	include( 'configure/admin.php' );
 }
-
