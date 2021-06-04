@@ -23613,6 +23613,17 @@ a:active {
   font-size: 3rem;
 }
 
+.footer-nav-widgets-wrapper {
+  border: none;
+}
+
+ul.footer-social {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .post-meta-single ul.post-meta .post-tags,
 .post-meta-single ul.post-meta .post-comment-link {
   display: none;
