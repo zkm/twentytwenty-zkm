@@ -1,0 +1,188 @@
+[27-Jul-2021 07:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[28-Jul-2021 07:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[29-Jul-2021 06:56:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[30-Jul-2021 07:33:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[30-Jul-2021 13:29:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[31-Jul-2021 06:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[01-Aug-2021 07:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[02-Aug-2021 07:17:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[03-Aug-2021 06:59:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[04-Aug-2021 07:08:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[05-Aug-2021 07:03:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[05-Aug-2021 10:22:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[06-Aug-2021 10:51:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[07-Aug-2021 06:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[08-Aug-2021 07:18:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[09-Aug-2021 07:02:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[10-Aug-2021 07:05:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[11-Aug-2021 07:04:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[12-Aug-2021 07:14:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[13-Aug-2021 06:58:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[14-Aug-2021 07:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[15-Aug-2021 06:57:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[16-Aug-2021 07:01:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[17-Aug-2021 06:57:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[17-Aug-2021 11:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[18-Aug-2021 12:11:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[19-Aug-2021 06:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[20-Aug-2021 07:15:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[21-Aug-2021 06:58:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[22-Aug-2021 07:13:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[23-Aug-2021 06:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[24-Aug-2021 07:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[25-Aug-2021 07:04:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[25-Aug-2021 11:39:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[26-Aug-2021 12:09:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[27-Aug-2021 06:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[28-Aug-2021 07:01:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[29-Aug-2021 06:53:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[30-Aug-2021 06:57:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[31-Aug-2021 06:59:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[01-Sep-2021 07:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[02-Sep-2021 07:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[03-Sep-2021 06:52:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[04-Sep-2021 07:11:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[05-Sep-2021 06:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[06-Sep-2021 07:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
+[07-Sep-2021 06:55:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/yl05gxr3ki4b/public_html/wp-content/themes/twentytwenty/index.php on line 17
