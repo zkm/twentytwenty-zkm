@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# ignore uploads:
+wp-content/uploads/
+
+# ignore plugins
+wp-content/mu-plugins/
+wp-content/plugins/
+wp-content/ai1wm-backups/
+
+# ignore specific themes
+wp-content/themes/
+!wp-content/themes/twenty*
+
+# ignore log files and databases
+gitconfig
+error_log
+*.log
+*.sql
+*.sqlite
+.DS_Store
