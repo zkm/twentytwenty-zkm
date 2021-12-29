@@ -22,3 +22,7 @@ error_log
 *.sql
 *.sqlite
 .DS_Store
+db.php
+cache/
+*-cache*
+w3tc-config
