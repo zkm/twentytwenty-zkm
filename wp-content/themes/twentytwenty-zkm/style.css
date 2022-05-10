@@ -10,3 +10,16 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: twentytwenty-child
 */
+
+.gform_wrapper div.validation_error {
+	background-color: #ccc;
+}
+.gform_wrapper .gform_body li.gfield.gfield_error, 
+.gform_wrapper .gform_body li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+	background-color: #ccc;
+	padding: 1em;
+}
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+	width: 95%;
+}
