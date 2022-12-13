@@ -13,7 +13,8 @@ wp-content/ai1wm-backups/
 
 # ignore specific themes
 wp-content/themes/
-!wp-content/themes/twenty*
+!wp-content/themes/twentytwenty/
+!wp-content/themes/twentytwenty-zkm/
 
 # ignore log files and databases
 gitconfig
