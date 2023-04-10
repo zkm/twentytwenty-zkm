@@ -1,6 +1,6 @@
-const log = require('fancy-log');
-const path = require('path');
-const c = require('ansi-colors');
+const log = require("fancy-log");
+const path = require("path");
+const c = require("ansi-colors");
 
 /**
  * Validate the options passed
@@ -8,60 +8,64 @@ const c = require('ansi-colors');
  *
  * @param project
  */
-module.exports = function(project) {
-	let validationFailed = false;
+module.exports = function (project) {
+  let validationFailed = false;
 
-	/**
-	 * Safely handle missing
-	 * project name or
-	 * project prettyName
-	 */
-	if (!project.name) {
-		validationFailed = true;
+  /**
+   * Safely handle missing
+   * project name or
+   * project prettyName
+   */
+  if (!project.name) {
+    validationFailed = true;
 
-		log(
-			'Project Config Error:',
-			c.red('The "name" option in your project.config.js configuration cannot be empty')
-		);
-	}
-	if (!project.prettyName) {
-		validationFailed = true;
+    log(
+      "Project Config Error:",
+      c.red(
+        'The "name" option in your project.config.js configuration cannot be empty'
+      )
+    );
+  }
+  if (!project.prettyName) {
+    validationFailed = true;
 
-		log(
-			'Project Config Error:',
-			c.red('The "prettyName" option in your project.config.js configuration cannot be empty')
-		);
-	}
+    log(
+      "Project Config Error:",
+      c.red(
+        'The "prettyName" option in your project.config.js configuration cannot be empty'
+      )
+    );
+  }
 
-	/**
-	 * Safely handle misconfigured
-	 * project name
-	 */
-	const devThemeRoot = path.basename(path.resolve('./'));
-	if (project.name === devThemeRoot) {
-		validationFailed = true;
+  /**
+   * Safely handle misconfigured
+   * project name
+   */
+  const devThemeRoot = path.basename(path.resolve("./"));
+  if (project.name === devThemeRoot) {
+    validationFailed = true;
 
-		log(
-			'Project Config Error:',
-			c.red(
-				`The \"name\" value in your project.config.js configuration '${project.name}' ` +
-					`cannot be the same as the directory name of the development theme '${devThemeRoot}'.`
-			)
-		);
+    log(
+      "Project Config Error:",
+      c.red(
+        `The \"name\" value in your project.config.js configuration '${project.name}' ` +
+          `cannot be the same as the directory name of the development theme '${devThemeRoot}'.`
+      )
+    );
 
-		log(
-			`Please either rename the development theme directory (to '${project.name}_dev' for example) ` +
-				'or change the name value in your project.config.js to something else.'
-		);
-	}
+    log(
+      `Please either rename the development theme directory (to '${project.name}_dev' for example) ` +
+        "or change the name value in your project.config.js to something else."
+    );
+  }
 
-	/**
-	 * Exit the gulp process
-	 * if validation failed
-	 */
-	if (validationFailed) {
-		// if validation has failed
-		// do not continue further
-		process.exit(1);
-	}
+  /**
+   * Exit the gulp process
+   * if validation failed
+   */
+  if (validationFailed) {
+    // if validation has failed
+    // do not continue further
+    process.exit(1);
+  }
 };

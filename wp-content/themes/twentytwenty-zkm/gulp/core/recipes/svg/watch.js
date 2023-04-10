@@ -1,7 +1,7 @@
-const gulp = require('gulp');
+const gulp = require("gulp");
 
 // config
-const config = require('../../config/svg');
+const config = require("../../config/svg");
 
 /**
  * Watch svg files
@@ -9,8 +9,8 @@ const config = require('../../config/svg');
  *
  * @param done
  */
-module.exports = function(done) {
-	gulp.watch(config.paths.watch, gulp.parallel('svg:dev'));
+module.exports = function (done) {
+  gulp.watch(config.paths.watch, gulp.parallel("svg:dev"));
 
-	done();
+  done();
 };

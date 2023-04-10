@@ -1,4 +1,3 @@
-
 /**
  * Colors
  *
@@ -12,9 +11,9 @@
  * @see https://github.com/lolmaus/breakpoint-slicer
  */
 $slicer-breakpoints-settings: true;
-@if ( $slicer-breakpoints-settings == true ) {
+@if ($slicer-breakpoints-settings == true) {
   $slicer-breakpoints: 0 576px 768px 992px 1200px 1600px;
-  $slicer-breakpoint-names: 'xs' 'sm' 'md' 'lg' 'xl' 'hd';
+  $slicer-breakpoint-names: "xs" "sm" "md" "lg" "xl" "hd";
   $slicer-anti-overlap-corrections: -1px;
 }
 
@@ -23,68 +22,69 @@ $slicer-breakpoints-settings: true;
  *
  * @see https://getbootstrap.com/docs/4.6/getting-started/theming/#variable-defaults
  */
-$font-size-base:1.4rem;
-$font-weight-base:300;
-$font-family-base: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
-$btn-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out, box-shadow .3s ease-in-out;
-$border-radius:.4rem;
-$primary-color:#3B65BC;
-$secondary-color: #FF7900;
-$btn-box-shadow:none;
-$btn-active-box-shadow:none;
-$btn-focus-box-shadow:none;
-$input-btn-focus-box-shadow:none;
-$input-border-radius:0;
-$grid-columns:12;
-$grid-gutter-width:30px;
+$font-size-base: 1.4rem;
+$font-weight-base: 300;
+$font-family-base: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$btn-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+  border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+$border-radius: 0.4rem;
+$primary-color: #3b65bc;
+$secondary-color: #ff7900;
+$btn-box-shadow: none;
+$btn-active-box-shadow: none;
+$btn-focus-box-shadow: none;
+$input-btn-focus-box-shadow: none;
+$input-border-radius: 0;
+$grid-columns: 12;
+$grid-gutter-width: 30px;
 $body-color: black;
 
 $grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    hd: 1600px
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  hd: 1600px,
 );
 
 $container-max-widths: (
-    sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1140px,
-    hd: 1560px,
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  hd: 1560px,
 );
 
-$spacers : (
-    1: 1rem,
-    2: 2rem,
-    3: 3rem,
-    4: 4rem,
-    5: 5rem,
-    6: 6rem,
-    7: 7rem,
-    8: 8rem,
-    9: 9rem,
-    10: 10rem,
-    11: 11rem,
-    12: 12rem,
-    13: 13rem,
-    14: 14rem,
-    15: 15rem,
-    16: 16rem,
-    17: 17rem,
-    18: 18rem,
-    19: 19rem,
-    20: 20rem,
-    21: 21rem,
-    22: 22rem,
-    23: 23rem,
-    24: 24rem,
-    25: 25rem,
-    26: 26rem,
-    27: 27rem,
-    28: 28rem,
-    29: 29rem,
-    30: 30rem,
+$spacers: (
+  1: 1rem,
+  2: 2rem,
+  3: 3rem,
+  4: 4rem,
+  5: 5rem,
+  6: 6rem,
+  7: 7rem,
+  8: 8rem,
+  9: 9rem,
+  10: 10rem,
+  11: 11rem,
+  12: 12rem,
+  13: 13rem,
+  14: 14rem,
+  15: 15rem,
+  16: 16rem,
+  17: 17rem,
+  18: 18rem,
+  19: 19rem,
+  20: 20rem,
+  21: 21rem,
+  22: 22rem,
+  23: 23rem,
+  24: 24rem,
+  25: 25rem,
+  26: 26rem,
+  27: 27rem,
+  28: 28rem,
+  29: 29rem,
+  30: 30rem,
 );

@@ -11,7 +11,7 @@ const App = {
 			return new General();
 		}
 		initGeneral();
-	}
+	},
 };
 
 document.addEventListener('DOMContentLoaded', () => {

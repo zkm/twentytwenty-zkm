@@ -28,6 +28,7 @@ if( is_admin()) {
 	include( 'configure/admin.php' );
 }
 
+
 /**
  * 1. Map social icons.
  *
@@ -61,3 +62,5 @@ add_filter( 'twentytwenty_svg_icons_social', function( $icons ) {
 
     return $icons;
 }, 10, 1 );
+
+

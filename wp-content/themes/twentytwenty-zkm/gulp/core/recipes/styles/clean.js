@@ -1,7 +1,7 @@
-const del = require('del');
+const del = require("del");
 
 // config
-const config = require('../../config/styles');
+const config = require("../../config/styles");
 
 /**
  * Delete all CSS and SourceMap
@@ -9,8 +9,8 @@ const config = require('../../config/styles');
  * asset directory
  *
  */
-module.exports = function(done) {
-	del(config.paths.clean, { force: true }).then(() => {
-		done();
-	});
+module.exports = function (done) {
+  del(config.paths.clean, { force: true }).then(() => {
+    done();
+  });
 };

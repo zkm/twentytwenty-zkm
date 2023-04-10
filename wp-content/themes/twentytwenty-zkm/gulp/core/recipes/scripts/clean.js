@@ -1,7 +1,7 @@
-const del = require('del');
+const del = require("del");
 
 // config
-const config = require('../../config/scripts');
+const config = require("../../config/scripts");
 
 /**
  * Delete all JS files
@@ -9,8 +9,8 @@ const config = require('../../config/scripts');
  * asset directory
  *
  */
-module.exports = function(done) {
-	del(config.paths.clean, { force: true }).then(() => {
-		done();
-	});
+module.exports = function (done) {
+  del(config.paths.clean, { force: true }).then(() => {
+    done();
+  });
 };

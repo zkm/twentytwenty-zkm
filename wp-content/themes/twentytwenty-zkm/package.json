@@ -5,7 +5,11 @@
 	"author": "Zach Schneider",
 	"authorURI": "https://www.zachschneider.com",
 	"license": "MIT",
-	"keywords": [ "wordpress", "theme", "gulp" ],
+	"keywords": [
+		"wordpress",
+		"theme",
+		"gulp"
+	],
 	"scripts": {
 		"start": "gulp",
 		"build": "gulp build",

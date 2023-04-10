@@ -1,4 +1,4 @@
-const devTask = require('./dev');
+const devTask = require("./dev");
 
 /**
  * We are just going to use the
