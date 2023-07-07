@@ -63,4 +63,11 @@ add_filter( 'twentytwenty_svg_icons_social', function( $icons ) {
     return $icons;
 }, 10, 1 );
 
+function add_rel_attribute_to_social_menu_link($atts, $item, $args, $depth) {
+    if ($args->theme_location === 'social') {
+        $atts['rel'] = 'me';
+    }
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'add_rel_attribute_to_social_menu_link', 10, 4);
 
