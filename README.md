@@ -11,10 +11,8 @@ cd twentytwenty-zkm
 Then:
 
 ````
-docker-compose up -d
+./start_docker_compose.sh
 ````
 
 Then in your browser:
-````
-http://localhost:8000/
-````
+ - http://localhost:2000
