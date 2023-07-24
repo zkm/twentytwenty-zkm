@@ -1,0 +1,34 @@
+version: "3.8" # You can use the latest version available at the time of editing.
+
+services:
+  db:
+    image: mysql:5.7 # For ARM64 compatibility, use an ARM-compatible MySQL image.
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    platform: linux/amd64 # Specify the platform as x86_64 (Intel/AMD) for MySQL image.
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest # For ARM64 compatibility, use an ARM-compatible WordPress image.
+    ports:
+      - "2000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+    working_dir: /var/www/html
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    platform: linux/arm64 # Specify the platform as ARM64 for WordPress image.
+
+volumes:
+  db_data:
