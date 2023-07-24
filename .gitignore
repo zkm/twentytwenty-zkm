@@ -27,3 +27,4 @@ db.php
 cache/
 *-cache*
 w3tc-config
+/_backup*
