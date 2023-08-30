@@ -1,3 +1,0 @@
-<?php
-
-// Utilities functions here

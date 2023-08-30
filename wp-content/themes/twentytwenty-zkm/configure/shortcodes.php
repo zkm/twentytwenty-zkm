@@ -1,3 +1,0 @@
-<?php
-
-// Shortcode functions here
