@@ -64,3 +64,14 @@ function add_rel_attribute_to_social_menu_link( $atts, $item, $args, $depth ) {
     }
     return $atts;
 }
+
+// Remove comments template
+function remove_comments_template() {
+    remove_filter('comments_template', 'twentytwenty_comments_template_loader');
+}
+add_action('init', 'remove_comments_template');
+
+function add_fediverse_meta_tag() {
+    echo '<meta name="fediverse:creator" content="@zachschneider@mastodon.social">' . "\n";
+}
+add_action('wp_head', 'add_fediverse_meta_tag', 1);

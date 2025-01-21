@@ -28,3 +28,4 @@ cache/
 *-cache*
 w3tc-config
 /_backup*
+wp-content/breeze-config/breeze-config.php
