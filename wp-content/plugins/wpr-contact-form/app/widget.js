@@ -1,10 +1,7 @@
 /* global window, document */
-if (!window._babelPolyfill) {
-	require('@babel/polyfill');
-}
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Widget from './containers/Widget.jsx';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -13,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	for (let i = 0; i < widget_containers.length; ++i) {
 		const objectId = widget_containers[i].getAttribute('data-object-id');
 
-		ReactDOM.render(<Widget wpObject={window[objectId]} />, widget_containers[i]);
+	const root = createRoot(widget_containers[i]);
+	root.render(<Widget wpObject={window[objectId]} />);
 	}
 });

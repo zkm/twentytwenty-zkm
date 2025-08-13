@@ -15,7 +15,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'assets'),
     },
 
-    devtool: production ? '' : 'source-map',
+  devtool: production ? 'source-map' : 'eval-source-map',
   
     resolve: {
       extensions: [".js", ".jsx", ".json"],

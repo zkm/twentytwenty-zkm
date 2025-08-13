@@ -4,9 +4,9 @@
   "description": "React boilerplate for WordPress plugins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress --colors --watch --mode=development",
-    "prod": "webpack --progress --colors -p --config webpack.config.js --mode=production"
+    "test": "jest",
+    "build": "webpack --progress --watch --mode=development",
+    "prod": "webpack --progress --config webpack.config.js --mode=production"
   },
   "repository": {
     "type": "git",
@@ -18,30 +18,35 @@
     "plugin",
     "webpack"
   ],
-  "author": "Pangolin",
+  "author": "Zach Schneider",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/gopangolin/wp-reactivate/issues"
   },
   "homepage": "https://github.com/gopangolin/wp-reactivate#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.4",
-    "eslint": "^5.6.1",
+    "babel-jest": "^30.0.5",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.33.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-react": "^7.11.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1"
   }
 }
