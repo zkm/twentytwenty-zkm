@@ -75,3 +75,4 @@ function add_fediverse_meta_tag() {
     echo '<meta name="fediverse:creator" content="@zachschneider@mastodon.social">' . "\n";
 }
 add_action('wp_head', 'add_fediverse_meta_tag', 1);
+
