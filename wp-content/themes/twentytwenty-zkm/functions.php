@@ -1,8 +1,13 @@
 <?php 
-// Import Parent Theme
-add_action( 'wp_enqueue_scripts', 'tt_child_enqueue_parent_styles' );
-function tt_child_enqueue_parent_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
+// Properly enqueue parent and child theme styles
+add_action( 'wp_enqueue_scripts', 'tt_child_enqueue_styles' );
+function tt_child_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array( 'parent-style' ),
+        wp_get_theme()->get('Version')
+    );
 }
 
 // Include theme configuration files
@@ -19,7 +24,7 @@ foreach ( $configure_files as $file ) {
     $file_path = get_stylesheet_directory() . '/configure/' . $file;
 
     if ( file_exists( $file_path ) ) {
-        include( $file_path );
+        require_once( $file_path );
     }
 }
 
@@ -28,7 +33,7 @@ if ( is_admin() ) {
     $admin_file = get_stylesheet_directory() . '/configure/admin.php';
 
     if ( file_exists( $admin_file ) ) {
-        include( $admin_file );
+        require_once( $admin_file );
     }
 }
 

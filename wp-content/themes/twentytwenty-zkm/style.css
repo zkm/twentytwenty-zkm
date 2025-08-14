@@ -1,3 +1,4 @@
+
 /*
 Theme Name: 20/20 ZKM
 Theme URI: https://www.zachschneider.com/
@@ -5,32 +6,178 @@ Description: Twenty Twenty Child Theme
 Author: Zach Schneider
 Author URL: https://www.zkm.tw/
 Template: twentytwenty
-Version: 3.14
+Version: 3.1415
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: twentytwenty-child
 */
 
+/* =============================
+   1. Layout & Spacing Overrides
+   ============================= */
+body.wp-child-theme-twentytwenty-zkm article,
+body.wp-child-theme-twentytwenty-zkm .entry-header {
+  padding-bottom: 0;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  max-width: 35rem;
+}
+
+
+/* =============================
+   2. Base Typography & Colors
+   ============================= */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.125rem; /* 18px base */
+  line-height: 1.7;
+  color: #f5f5f5;
+  background: #23272f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =============================
+   3. Headings & Paragraphs
+   ============================= */
+body.wp-child-theme-twentytwenty-zkm h1 { font-size: 2rem; }
+body.wp-child-theme-twentytwenty-zkm h2 { font-size: 1.8rem; }
+body.wp-child-theme-twentytwenty-zkm h3 { font-size: 1.6rem; }
+body.wp-child-theme-twentytwenty-zkm h4 { font-size: 1.3rem; }
+body.wp-child-theme-twentytwenty-zkm h5 { font-size: 1.1rem; }
+body.wp-child-theme-twentytwenty-zkm h6 { font-size: 1rem; }
+
+body.wp-child-theme-twentytwenty-zkm h1,
+body.wp-child-theme-twentytwenty-zkm h2,
+body.wp-child-theme-twentytwenty-zkm h3,
+body.wp-child-theme-twentytwenty-zkm h4,
+body.wp-child-theme-twentytwenty-zkm h5,
+body.wp-child-theme-twentytwenty-zkm h6 {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+body.wp-child-theme-twentytwenty-zkm p {
+  margin-bottom: 1.2em;
+  font-size: 1rem;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content {
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 1.5em;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #f5f5f5;
+}
+
+
+/* =============================
+   4. Entry Content & Links
+   ============================= */
+body.wp-child-theme-twentytwenty-zkm .entry-content p {
+  margin-bottom: 1.2em;
+  color: #e0e0e0;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content a {
+  color: #0056b3;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content a:hover {
+  color: #003d80;
+  text-decoration: none;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content blockquote {
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  color: #555;
+  background: #fafbfc;
+  border-radius: 4px;
+}
+
+body.wp-child-theme-twentytwenty-zkm .entry-content a {
+  color: #0056b3;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content a:hover {
+  color: #003d80;
+  text-decoration: none;
+}
+body.wp-child-theme-twentytwenty-zkm .entry-content blockquote {
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  color: #555;
+  background: #fafbfc;
+  border-radius: 4px;
+}
+
+
+/* =============================
+   5. Responsive Typography
+   ============================= */
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.25rem;
+    line-height: 1.75;
+  } /* 20px */
+  .entry-content {
+    font-size: 1.25rem;
+  }
+}
+
+
+/* =============================
+   6. Gravity Forms Styles
+   ============================= */
 .gform_wrapper div.validation_error {
-  background-color: #ccc;
+  background-color: #fbe9e9;
+  color: #b71c1c;
 }
 .gform_wrapper .gform_body li.gfield.gfield_error,
-.gform_wrapper
-  .gform_body
-  li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
-  background-color: #ccc;
+.gform_wrapper .gform_body li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+  background-color: #fbe9e9;
   padding: 1em;
+  border-radius: 4px;
 }
-
-.gform_wrapper
-  li.gfield_error
-  input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(
-    [type="button"]
-  ):not([type="image"]):not([type="file"]),
+.gform_wrapper li.gfield_error input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]),
 .gform_wrapper li.gfield_error textarea {
   width: 95%;
+  border: 1px solid #b71c1c;
+  background: #fff6f6;
 }
 
+/* =============================
+   7. Navigation & Footer
+   ============================= */
 .has-social-menu > nav ul.footer-social {
   justify-content: center;
+}
+nav, .site-footer, .site-footer a, .site-footer li, .site-footer ul {
+  font-size: 1.25rem;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+nav a, .site-footer a {
+  color: #5fa8ff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+nav a:hover, .site-footer a:hover {
+  color: #fff;
 }
