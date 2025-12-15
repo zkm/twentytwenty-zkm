@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  php-lint:
+    name: PHP lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+
+      - name: Syntax check (php -l)
+        run: |
+          find . \( -path './.git' -o -path '*/node_modules/*' \) -prune -o -name '*.php' -print0 | xargs -0 -n1 php -l
+
+  js-tests:
+    name: JS tests (wpr-contact-form)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wp-content/plugins/wpr-contact-form
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+          cache-dependency-path: wp-content/plugins/wpr-contact-form/yarn.lock
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run tests
+        run: yarn test --ci --runInBand
+        env:
+          CI: true
